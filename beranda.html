@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script type="text/javascript">
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black')
+            }
+        })
+        $(document).ready(function(){
+            $(".menu h4").click(function(){
+                $("nav ul").toggleClass("active")
+            })
+        })
+    </script>
+    <title>Beranda</title>
+</head>
+<body>
+    <div class="responsive-bar">
+        <div class="logo">
+            <img src="static/img/logo.png">
+        </div>
+        <div class="menu">
+            <h4>Menu</h4>
+        </div>
+    </div>
+    <nav>
+        <div class="logo">
+            <img src="static/img/logo.png">
+        </div>
+        <ul>
+            <li><a href="beranda.html" class="active">Beranda</a></li>
+            <li><a href="berita.html">Berita Terkini</a></li>
+            <li><a href="info.html">Info Vaksin</a></li>
+            <li><a href="tracker.html">Tracker</a></li>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Type to search">
+                <a class="search-btn" href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <section class="sec1">
+        <img src="static/img/section1.jpg">
+    </section>
+    <section class="content">
+        <h1>APA ITU COVID-19 ?</h1>
+        <p>Penyakit virus corona (COVID-19) adalah penyakit menular yang disebabkan oleh virus corona yang baru-baru ini ditemukan. Sebagian besar orang yang tertular COVID-19 akan mengalami gejala ringan hingga sedang dan akan pulih tanpa penanganan khusus</p>
+    </section>
+
+    <section class="sec2">
+        <img src="static/img/section2.jpeg">
+    </section>
+    <section class="content">
+        <h1>BAGAIMANA PENYEBARAN COVID-19 ?</h1>
+        <p>Virus yang menyebabkan COVID-19 terutama ditransmisikan melalui diroplet (percikan air liur) yang dihasilkan saat orang yang terinfeksi batuk,bersin atau menghembuskan nafas. Droplet ini terlalu berat dan tidak bisa bertahan diudara, sehingga dengan cepat jatuh dan menempel pada lantai atau permukaan lainnya. Anda dapat tertular saat menghirup udara yang mengandung virus jika Anda berada terlalu dekat dengan orang yang sudah terinfeksi COVID-19. Anda juga dapat tertular jika terkontaminasi lalu menyentuh mata,hidung atau mulut anda</p>
+    </section>
+
+    <section class="sec3">
+        <img src="static/img/section3.jpg">
+    </section>
+    <section class="content">
+        <h1>CARA PENCEGAHAN AGAR TERHINDAR DARI COVID-19</h1>
+        <p>Untuk mencegah penyebaran COVID-19:</p>
+        <ul>
+            <li>Cuci tangan Anda secara rutin. Gunakan sabun dan air, atau cairan pembersih tangan berbahan alkohol.</li>
+            <li>Selalu jaga jarak aman dengan orang yang batuk atau bersin.</li>
+            <li>Kenakan masker jika pembatasan fisik tidak dimungkinkan.</li>
+            <li>Jangan sentuh mata, hidung, atau mulut Anda.</li>
+            <li>Saat batuk atau bersin, tutup mulut dan hidung Anda dengan lengan atau tisu.</li>
+            <li>Jangan keluar rumah jika merasa tidak enak badan.</li>
+            <li>Jika demam, batuk, atau kesulitan bernapas, segera cari bantuan medis.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>COVID-19</h2>
+                <div class="content">
+                    <p>Masing-masing orang memiliki respons yang berbeda terhadap COVID-19. Sebagian besar orang yang terpapar virus ini akan mengalami gejala ringan hingga sedang dan akan pulih tanpa perlu dirawat di rumah sakit.</p>
+                    <h2>
+                        By<br>
+                        LUTFI ACHMAD SISWANDRO A11.2019.12170<br>
+                        TEDI OKTARIADI         A11.2019.12363<br>
+                        Muhammad Aditya Fatah  A11.2019.12374 
+                    </h2>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">sem </span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">097</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">df@example.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Contact Us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Mesage *</div>
+                            <textarea cols="25" rows="2" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center><marquee>
+                <span class="credit">PEBWEB A11.4322 || Copyright &copy;<a href="#"></a></span>
+                <span class="far fa copyright"></span><span>2020 KELOMPOK 6 UDINUS || All right Reserved.</span>
+            </marquee></center>
+        </div>
+    </footer>
+</body>
+</html>

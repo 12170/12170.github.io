@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script type="text/javascript">
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('black');
+            }
+            else{
+                $('nav').removeClass('black')
+            }
+        })
+        $(document).ready(function(){
+            $(".menu h4").click(function(){
+                $("nav ul").toggleClass("active")
+            })
+        })
+    </script>
+    <title>Info Vaksin</title>
+</head>
+<body>
+    <div class="responsive-bar">
+        <div class="logo">
+            <img src="static/img/logo.png">
+        </div>
+        <div class="menu">
+            <h4>Menu</h4>
+        </div>
+    </div>
+    <nav>
+        <div class="logo">
+            <img src="static/img/logo.png">
+        </div>
+        <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="berita.html">Berita Terkini</a></li>
+            <li><a href="info.html" class="active">Info Vaksin</a></li>
+            <li><a href="tracker.html">Tracker</a></li>
+            <div class="search-box">
+                <input class="search-txt" type="text" name="" placeholder="Type to search">
+                <a class="search-btn" href="#">
+                    <i class="fa fa-search"></i>
+                </a>
+            </div>
+        </ul>
+    </nav>
+    <br />
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <img src="static/img/vaksin1.jpeg" alt="">
+            </div>
+            <div class="card-content">
+                <div class="blog-details">
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-calendar"></i></span>
+                        <span class="text">05/11/2020</span>
+                    </div>
+
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-user"></i></span>
+                        <span class="text">Yudha Maulana</span>
+                    </div>
+
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-heart"></i></span>
+                        <span class="text">220</span>
+                    </div>
+                </div>
+                <h2 class="blog-tittle">'Drop Out' dari Uji Klinis Vaksin COVID-19, Begini Nasib 17 Relawan di Bandung</h2>
+                <p class="excerpt">
+                    Bandung - Sebanyak 17 relawan uji klinis vaksin COVID-19 Sinovac mengundurkan diri atau drop out dari tahapan uji klinis. Walau demikian, 17 orang tersebut akan tetap dipantau kesehatannya dan tetap dijamin asuransi sampai uji klinis vaksin tahap III ini selesai.
+                    Ketua Tim Uji Klinis Vaksin COVID-19 Prof Kusnandi Rusmil memastikan, 17 relawan yang mengundurkan diri tersebut telah mendapatkan suntikan vaksin yang pertama. Hanya, saja dalam prosesnya ada kondisi yang membuat relawan tersebut tak bisa mengikuti penyuntikan vaksin dosis kedua.
+                    "Yang mengundurkan diri ada yang pindah kerja, ada yang sakit. Tapi sakitnya itu tidak berhubungan dengan imunisasi. Contohnya ada sakit tifus, ada flu berat, sehingga dia tidak bisa mengikuti injeksi yang kedua," ujar Kusnandi saat ditemui di kediamannya di Bandung, Kamis (5/11/2020).
+                </p>
+                <div class="blog-cta">
+                    <a href="https://health.detik.com/berita-detikhealth/d-5242533/drop-out-dari-uji-klinis-vaksin-covid-19-begini-nasib-17-relawan-di-bandung" class="button">Read more</a>
+                    <button class="share-button"><i class="fa fa-share-alt"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <img src="static/img/vaksin2.jpeg" alt="">
+            </div>
+            <div class="card-content">
+                <div class="blog-details">
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-calendar"></i></span>
+                        <span class="text">03/11/2020</span>
+                    </div>
+
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-user"></i></span>
+                        <span class="text">Rahajeng Kusumo Hastuti</span>
+                    </div>
+
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-heart"></i></span>
+                        <span class="text">220</span>
+                    </div>
+                </div>
+                <h2 class="blog-tittle">Kabar Gembira dari Bandung Soal Uji Vaksin Covid-19 Sinovac</h2>
+                <p class="excerpt">
+                    Jakarta, CNBC Indonesia - Uji coba vaksin Sinovac yang dilakukan di Bandung, Jawa Barat, masih berlangsung dan telah banyak yang mendapatkan suntikan kedua. Ketua Tim Riset Uji Klinis Vaksin Covid-19 Kusnandi Rusmil mengatakan sepanjang dilakukan uji coba tahap 3 tidak ditemukan hal-hal yang menakutkan atau membahayakan.
+                    "Kami sudah melakukan penyuntikan 1.590 sekian untuk suntikan kedua. Tidak kami temukan hal-hal menakutkan, paling panas dan demam dalam 2 hari hilang," kata Kusnandi, Selasa (03/11/2020).
+                </p>
+                <div class="blog-cta">
+                    <a href="https://www.cnbcindonesia.com/tech/20201103160405-37-198990/kabar-gembira-dari-bandung-soal-uji-vaksin-covid-19-sinovac" class="button">Read more</a>
+                    <button class="share-button"><i class="fa fa-share-alt"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <img src="static/img/vaksin3.jpg" alt="">
+            </div>
+            <div class="card-content">
+                <div class="blog-details">
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-calendar"></i></span>
+                        <span class="text">10/01/2020</span>
+                    </div>
+
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-user"></i></span>
+                        <span class="text">Ardi Priyatno Utomo</span>
+                    </div>
+
+                    <div class="icon-text">
+                        <span class="icon"><i class="fa fa-heart"></i></span>
+                        <span class="text">220</span>
+                    </div>
+                </div>
+                <h2 class="blog-tittle">Dokter Ini Sebut Vaksin Covid-19 dari Sinopharm Paling Tidak Aman di Dunia</h2>
+                <p class="excerpt">
+                    BEIJING, KOMPAS.com - Seorang dokter di China menuai kontroversi, setelah menyebut vaksin Covid-19 dari Sinopharm adalah yang paling tak aman di dunia. Dr Tao Lina, pakar vaksin asal Shanghai, kepada 4,8 juta pengikutnya menyatakan obat itu mempunyai 73 efek samping. Setelah komentarnya menjadi viral bahkan sampai ke telinga media asing, Dr Tao meralat ucapannya dan menuding media sudah "memutarbalikkan" ucapannya.
+                </p>
+                <div class="blog-cta">
+                    <a href="https://www.kompas.com/global/read/2021/01/10/171246970/dokter-ini-sebut-vaksin-covid-19-dari-sinopharm-paling-tidak-aman-di?page=all" class="button">Read more</a>
+                    <button class="share-button"><i class="fa fa-share-alt"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>COVID-19</h2>
+                <div class="content">
+                    <p>Masing-masing orang memiliki respons yang berbeda terhadap COVID-19. Sebagian besar orang yang terpapar virus ini akan mengalami gejala ringan hingga sedang dan akan pulih tanpa perlu dirawat di rumah sakit.</p>
+                    <h2>
+                        By<br>
+                        LUTFI ACHMAD SISWANDRO A11.2019.12170<br>
+                        TEDI OKTARIADI         A11.2019.12363<br>
+                        Muhammad Aditya Fatah  A11.2019.12374 
+                    </h2>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">sem </span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">097</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">df@example.com</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right box">
+                <h2>Contact Us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Mesage *</div>
+                            <textarea cols="25" rows="2" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center><marquee>
+                <span class="credit">PEBWEB A11.4322 || &copy;<a href="#"></a></span>
+                <span class="far fa copyright"></span><span>2020 KELOMPOK 6 UDINUS || All right Reserved.</span>
+            </marquee></center>
+        </div>
+    </footer>
+</body>
+</html>
